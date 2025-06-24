@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","myhmsdb");
+$con=mysqli_connect("localhost","root","Googleme240","myhmsdb");
 if(isset($_POST['patsub'])){
 	$email=$_POST['email'];
 	$password=$_POST['password2'];

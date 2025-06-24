@@ -1,5 +1,5 @@
 <?php 
-$con=mysqli_connect("localhost","root","","myhmsdb");
+$con=mysqli_connect("localhost","root","Googleme240","myhmsdb");
 if(isset($_POST['btnSubmit']))
 {
 	$name = $_POST['txtName'];
